@@ -28,10 +28,11 @@ li{
 .container{
     justify-content: center;
     display: flex;
-    width: 800px;
+    width: 32rem;
     height: 800px;
     background-color: aliceblue;
     margin: auto;
+    border: 1px solid black;
 }
 
 .calculator{

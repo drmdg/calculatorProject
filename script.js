@@ -48,7 +48,7 @@ function separaOperandos(){
     let operando1;
     let operando2;
     for (let i=0;i<display.length;i++){
-        if(isNaN(display[i])){
+        if(isNaN(display[i]) && display[i]!='.'){
             operando1=+display.slice(0,i).join('');
             operando2=+display.slice(i+1).join('');
             operador=display[i];
